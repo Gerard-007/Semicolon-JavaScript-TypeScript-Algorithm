@@ -1,4 +1,3 @@
-
 const numberFactors = (number) => {
     let countDown = number;
     let result = 0;
@@ -6,7 +5,7 @@ const numberFactors = (number) => {
     while (countDown >= 1) {
         countDown -= 1;
         result += (number * countDown);
-        if (result > 1000) {
+        if (result === 1000) {
             break;
         }
     }
