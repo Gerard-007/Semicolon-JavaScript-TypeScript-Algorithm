@@ -1,12 +1,12 @@
 function numRanges(start, end, step=1) {
     result = [];
     if (start < end) {
-        for (var i = start; i < end; i+=step) {
+        for (let i = start; i < end; i+=step) {
             result.push(i);
         }
     } else {
-        for (var i = start; i > end; i-=step) {
-            result.push(i);
+        for (let j = start; j > end; j-=step) {
+            result.push(j);
         }
     }
     return result;

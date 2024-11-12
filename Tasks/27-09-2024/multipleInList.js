@@ -20,7 +20,6 @@ listInput.forEach((value) => {
 	for (let i in listInput) {
 		if(current === listInput[i]) {
 			counter++;
-			continue;
 		}
 	}
 	if (largest < counter) {
