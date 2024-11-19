@@ -75,6 +75,8 @@ const customerOrderAnalyzer = (array) => {
     return result;
 }
 
+// discount_price = price - (price * 10% / 100)
+
 module.exports = {
     customerOrderAnalyzer,
     shoppingList,
