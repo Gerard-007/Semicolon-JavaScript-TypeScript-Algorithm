@@ -1,0 +1,15 @@
+{
+  "name": "21-11-2024",
+  "version": "1.0.0",
+  "main": ["Stack.js", "Queue.js"],
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
